@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CerditCardHidePipe } from './pipes/cerdit-card-hide.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CerditCardHidePipe
   ],
   imports: [
     BrowserModule,

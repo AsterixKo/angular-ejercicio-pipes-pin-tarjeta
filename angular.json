@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-ejercicio-pipes-pin-tarjeta"
+    }
+  },
+  "defaultProject": "angular-ejercicio-pipes-pin-tarjeta",
+  "cli": {
+    "analytics": false
+  }
 }
